@@ -1,0 +1,82 @@
+//FOR TF_ENGLISH MANUAL UPDATES 
+//  _____________
+// | ELL'S KIT 1 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+"TF_ScoreBoard_Player"  "%s1"
+"TF_ScoreBoard_Players" "%s1"
+"ScoreBoard_Spectator"  "(%s1) %s2"
+"ScoreBoard_Spectators" "(%s1) %s2"
+//  _________________
+// | END ELL'S KIT 1 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//  _____________
+// | ELL'S KIT 2 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+"TF_Scoreboard_Name"  ""
+"TF_Scoreboard_Score" ""
+"TF_Scoreboard_Ping"  ""
+//  _________________
+// | END ELL'S KIT 2 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//  _____________
+// | ELL'S KIT 3 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+"Scoreboard_Server"           "%s1"
+"Scoreboard_TimeLeft"         "%s1:%s2:%s3"
+"Scoreboard_TimeLeftNoHours"  "%s1:%s2"
+"Scoreboard_NoTimeLimit"      ""
+"Scoreboard_ChangeOnRoundEnd" ""
+//  _________________
+// | END ELL'S KIT 3 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//  _____________
+// | ELL'S KIT 4 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+"game_respawntime_now"        "0"
+"game_respawntime_in_sec"     "1"
+"game_respawntime_in_secs"    "%s1"
+"game_respawntime_stalemate"  ""
+"game_respawntime_next_round" ""
+//  _________________
+// | END ELL'S KIT 4 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//  _____________
+// | ELL'S KIT 5 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+"TF_playerid_sameteam"                    "%s1%s2"
+"TF_playerid_diffteam"                    "%s1%s2"
+"TF_playerid_noteam"                      "%s1"
+"TF_playerid_object"                      "%s1 %s2"
+"TF_playerid_object_mini"                 "%s1 %s2"
+"TF_playerid_object_mode"                 "%s1 %s3 %s2"
+"TF_playerid_object_level"                "%s1"
+"TF_playerid_object_upgrading"            "%s1"
+"TF_playerid_object_upgrading_level"      "%s1 %s2"
+"TF_playerid_object_diffteam"             "%s1 %s2"
+"TF_playerid_object_recharging"           "%s1%"
+"TF_playerid_healer"                      ""
+"TF_playerid_healtarget"                  ""
+"TF_playerid_friendlyspy_disguise"        "%s1 %s2"
+"TF_playerid_mediccharge"                 "%s1"
+"TF_playerid_mediccharge_wpn"             "%s1 %s2"
+"TF_playerid_teleporter_entrance_nomatch" "No Exit"
+"TF_playerid_noheal"                      "Equalizer"
+"TF_playerid_ammo"                        "%s1"
+//  _________________
+// | END ELL'S KIT 5 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//  _____________
+// | ELL'S KIT 6 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+"ControlPointIconCappers" "%numcappers%" 
+//  _________________
+// | END ELL'S KIT 6 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//  _____________
+// | ELL'S KIT 7 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯
+"TF_Ubercharge"       "%charge%" 
+"TF_UberchargeMinHUD" "%charge%"
+//  _________________
+// | END ELL'S KIT 7 |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
