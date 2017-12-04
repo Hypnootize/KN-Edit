@@ -198,9 +198,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"32"
-			"wide"			"f0"
+			"xpos"			"1"
+			"ypos"			"5"
+			"wide"			"160"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -227,9 +227,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"65"
-			"ypos"			"52"
-			"wide"			"f0"
+			"xpos"			"1"
+			"ypos"			"25"
+			"wide"			"160"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -255,9 +255,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
-			"ypos"			"-48"
-			"wide"			"f70"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"160"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -288,7 +288,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -296,6 +296,11 @@
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall" "20"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -306,7 +311,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -314,6 +319,11 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall" "20"
+					}
 				}
 
 				"ProgressBarsContainer"
