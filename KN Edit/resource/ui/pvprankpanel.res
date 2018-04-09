@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,16 +200,15 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"1"
-			"ypos"			"5"
-			"wide"			"160"
+			"xpos"			"65"
+			"ypos"			"0"
+			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -215,30 +223,25 @@
 			if_mini
 			{
 				"visible"	"0"
-				"xpos"		"65"
-				"ypos"		"5"
-				"font"		"HudFontSmallishBold"
-				"fgcolor_override"	"TanLight"
-				"AllCaps"		"0"
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"1"
-			"ypos"			"25"
-			"wide"			"160"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
+			"ypos"			"20"
+			"wide"			"180"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"knFontRegular12"
-			"AllCaps"		"1"
 			"fgcolor_override"	"255 255 255 255"
+			"AllCaps"		"1"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -246,8 +249,56 @@
 				"xpos"	"67"
 				"ypos"	"4"
 				"font"	"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"AllCaps"		"0"
+				"AllCaps"	"0"
+				"wide"		"195"
+			}
+
+			"fonts"
+			{
+				"0"		"knFontRegular12"
+				"1"		"knFontRegular12"
+				"2"		"knFontRegular12"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"39"
+			"wide"			"180"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"knFontRegular12"
+			"fgcolor_override"	"255 255 255 255"
+			"AllCaps"		"1"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"font"	"HudFontSmallestBold"
+				"AllCaps"	"0"
+				"wide"		"195"
+			}
+
+			"fonts"
+			{
+				"0"		"knFontRegular12"
+				"1"		"knFontRegular12"
+				"2"		"knFontRegular12"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"255 255 255 255"
 			}
 		}
 
@@ -255,7 +306,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
+			"xpos"			"64"
 			"ypos"			"0"
 			"wide"			"160"
 			"tall"			"f0"

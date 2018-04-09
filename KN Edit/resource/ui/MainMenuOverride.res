@@ -324,13 +324,13 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"-415"
-		"ypos"			"cs-0.5-180"
+		"xpos"			"-235"
+		"ypos"			"cs-0.5-191"
 
-		"zpos"			"1"
-		"wide"			"1000"
-		"tall"			"1000"
-		"visible"		"1"
+		"zpos"			"2"
+		"wide"			"600"
+		"tall"			"600"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -338,24 +338,103 @@
 
 		"show_progress"	"0"
 	}
+
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"cs-0.5-205"
+		"ypos"			"cs-0.5-77"
+		"zpos"			"15"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"paintborder"		"0"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"0 200 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"10"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}		
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-285"
+		"ypos"			"99"
+		"zpos"			"-1"
+		"wide"			"8"
+		"tall"			"0"	//8
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
 	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"-11"
-		"ypos"			"100"
-		"zpos"			"2"
+		"xpos"			"-75"
+		"ypos"			"86"
+		"zpos"			"1"
 		"wide"			"320"
-		"tall"			"100"
-		"visible"		"1"
+		"tall"			"113"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 
 		"show_model"	"0"
+		"show_type"		"1"
+	}
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"9999"
 	}
 	
 	"FriendsContainer"
@@ -468,7 +547,7 @@
 
 		"BelowDarken"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldname"		"BelowDarken"
 			"xpos"			"cs-.5"
 			"ypos"			"rs1-10"
@@ -480,7 +559,11 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"0 0 0 175"
+			"image"			"../hud/tournament_panel_brown"
+			"src_corner_height"	"23"
+			"src_corner_width"	"23"
+			"draw_corner_width"	"1"
+			"draw_corner_height" 	"1"	
 		}
 	}
 	
@@ -1369,7 +1452,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"KNHUDLABEL"
 		"xpos"			"50"
-		"ypos"			"90"
+		"ypos"			"70"
 		"zpos"			"15"
 		"wide"			"150"
 		"tall"			"20"
@@ -1401,9 +1484,9 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "knWhite"
-			"armedFgColor_override"   "knWhite"
-			"depressedFgColor_override" "knWhite"
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override"   "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
 				
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
