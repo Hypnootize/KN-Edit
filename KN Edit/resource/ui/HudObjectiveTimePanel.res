@@ -16,8 +16,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -40,8 +39,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -67,8 +65,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -88,8 +85,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -115,8 +111,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -136,8 +131,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -163,8 +157,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -183,8 +176,7 @@
 
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}		
 	}	
 	"SetupLabel"
@@ -210,8 +202,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
@@ -221,12 +212,9 @@
 		"xpos"			"-999999"[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -234,8 +222,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"	"9999"
 		}
 	}	
 	"ServerTimeLimitLabel"
@@ -256,6 +243,12 @@
 		"wrap"                  "0"
 		"font"                  "knFontBold16"
 		"fgcolor"				"knWhite"
+		
+		if_match
+		{
+			"ypos"				"34"
+			"font"				"knFontBold10"
+		}
 	}      
 	"ServerTimeLimitLabelBG"
 	{
@@ -270,5 +263,10 @@
 		"enabled"               "1"
 		"image"                 "../hud/objectives_timepanel_suddendeath"      
 		"scaleImage"            "1"    
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}
 }

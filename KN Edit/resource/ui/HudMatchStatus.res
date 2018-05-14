@@ -267,51 +267,49 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"knDamage"
 		"NegativeColor"			"knLow2"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"knFontRegular14"
-		"fgcolor"			"knWhite"
+		"fgcolor"				"knWhite"
 		"fgcolor_override"		"knWhite"
 		
 		if_match
 		{
+			"ypos"				"-11"
 			"zpos"				"5"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"font"			"knFontBold14"
-			"xpos"			"33"
-			"ypos"			"11"
-			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
+			"fieldName"			"TimePanelValue"
+			"font"				"knFontBold14"
+			"xpos"				"33"
+			"ypos"				"11"
+			"zpos"				"3"
+			"wide"				"45"
+			"tall"				"31"
+			"visible"			"1"
+			"enabled"			"1"
 			"textAlignment"		"center"
-			"labelText"		"00:00"
-			"fgcolor"		"knWhite"
+			"labelText"			"00:00"
+			"fgcolor"			"knWhite"
 			"fgcolor_override"	"255 255 255 255"
 			"fgcolor_override"	"knWhite"
 			
 			if_match
 			{
 				"font"			"knFontBold12"
-				"ypos"			"1"
 			}
 		}	
 	}

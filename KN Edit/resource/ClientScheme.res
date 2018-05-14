@@ -6709,37 +6709,37 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/Synthview - NovecentoWide-Light.otf"
+			"font" "resource/fonts/Synthview - NovecentoWide-Light.otf"
 			"name" "Novecentowide-Light"
 		}
 		"8" 
 		{
-			"font" "resource/Synthview - NovecentoWide-Book.otf"
+			"font" "resource/fonts/Synthview - NovecentoWide-Book.otf"
 			"name" "Novecentowide-Book"
 		}
 		"9" 
 		{
-			"font" "resource/Synthview - NovecentoWide-Normal.otf"
+			"font" "resource/fonts/Synthview - NovecentoWide-Normal.otf"
 			"name" "Novecentowide-Normal"
 		}
 		"10" 
 		{
-			"font" "resource/Synthview - NovecentoWide-Medium.otf"
+			"font" "resource/fonts/Synthview - NovecentoWide-Medium.otf"
 			"name" "NovecentoWide-Medium"
 		}
 		"11" 
 		{
-			"font" "resource/Synthview - NovecentoWide-DemiBold.otf"
+			"font" "resource/fonts/Synthview - NovecentoWide-DemiBold.otf"
 			"name" "NovecentoWide-DemiBold"
 		}
 		"12" 
 		{
-			"font" "resource/Synthview - NovecentoWide-Bold.otf"
+			"font" "resource/fonts/Synthview - NovecentoWide-Bold.otf"
 			"name" "Novecentowide-Bold"
 		}
 		"13" 
 		{
-			"font" "resource/crosshairs.ttf"
+			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}			
 	}

@@ -547,7 +547,7 @@
 
 		"BelowDarken"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
 			"xpos"			"cs-.5"
 			"ypos"			"rs1-10"
@@ -559,11 +559,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"image"			"../hud/tournament_panel_brown"
-			"src_corner_height"	"23"
-			"src_corner_width"	"23"
-			"draw_corner_width"	"1"
-			"draw_corner_height" 	"1"	
+			"bgcolor_override"		"0 0 0 175"
 		}
 	}
 	

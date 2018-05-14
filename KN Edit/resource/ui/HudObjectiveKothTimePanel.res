@@ -22,13 +22,13 @@
 		
 		if_match
 		{
-			"xpos"				"75"
-			"ypos"				"10"
+			"xpos"			"68"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"knFontMedium11"
 			"fgcolor"		"knWhite"
@@ -39,18 +39,18 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"knFontMedium9"
+				"font"		"knFontMedium12"
 			}
 		}	
 	}
 	"BlueTimerBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BlueTimerBG"
 		"xpos"			"70"
 		"ypos"			"0"
@@ -89,13 +89,13 @@
 		
 		if_match
 		{
-			"xpos"				"95"
-			"ypos"				"10"
+			"xpos"			"103"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"knFontMedium11"
 			"fgcolor"		"knWhite"
@@ -106,12 +106,12 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"knFontMedium9"
+				"font"		"knFontMedium12"
 			}
 		}	
 	}
@@ -167,14 +167,16 @@
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
 		"ypos"				"15"
-		"ypos_minmode"		"15"
 		"zpos"				"0"
 		"wide"				"30"
-		"wide_minmode"		"30"
 		"tall"				"1"
-		"tall_minmode"		"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"	"knDamage"	
+		"fillcolor"			"knDamage"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 }
