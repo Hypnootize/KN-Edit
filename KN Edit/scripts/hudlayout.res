@@ -250,14 +250,11 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-50"	[$WIN32]
-		"ypos"		"r125"	[$WIN32]
+		"xpos"		"c-50"
+		"ypos"		"r140"
 		"ypos_minmode"	"r140"
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
 		"wide"		"100"
 		"tall"		"20"
-		"TextFont"	"Default"	[$X360]
 	}
 	CMainTargetID
 	{

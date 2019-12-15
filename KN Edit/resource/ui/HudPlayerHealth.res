@@ -34,13 +34,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"-9999999"	  // "-999999" to hide this in minmode 0
+		"xpos"			"-9999999"
 		"ypos"			"39"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
-		"wide_minmode"		"20"
-		"tall_minmode"		"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -50,13 +48,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"-9999999"	  // "-999999" to hide this in minmode 0
+		"xpos"			"-9999999"
 		"ypos"			"44"
 		"zpos"			"2"
 		"tall"			"10"
 		"wide"			"10"
-		"wide_minmode"		"10"
-		"tall_minmode"		"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
