@@ -1,12 +1,7 @@
 # KN-Edit
-Screenshots: https://imgur.com/a/odCHW
 
-How to Download and Install: https://imgur.com/a/w3Ah6
+**[SCREENSHOTS ALBUM](https://imgur.com/a/odCHW)** 
 
-Original Damage Color:
+**[INSTALLATION](https://imgur.com/a/w3Ah6)**
 
-hud_combattext_red 145
-
-hud_combattext_green 225
-
-hud_combattext_blue 25
+![](https://i.imgur.com/7o8VPLU.jpg)
